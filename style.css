@@ -1,0 +1,160 @@
+/* ===========================
+   TAESUNG DIGITAL CARD
+   Apple Style v1.0
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#EEF2F5;
+
+    font-family:
+    "Pretendard",
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    sans-serif;
+
+    color:#1d1d1f;
+
+}
+
+.container{
+
+    max-width:520px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+}
+
+.card{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 15px 45px rgba(0,0,0,.08);
+
+}
+
+/* 버튼 */
+
+.button{
+
+    display:block;
+
+    margin-top:24px;
+
+    padding:18px;
+
+    background:#173B63;
+
+    color:#fff;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    border-radius:18px;
+
+    transition:0.25s;
+
+}
+
+.button:hover{
+
+    background:#0F2F50;
+
+    transform:translateY(-2px);
+
+}
+
+/* 연락처 */
+
+.links{
+
+    margin-top:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+}
+
+.links a{
+
+    background:#fff;
+
+    padding:16px 20px;
+
+    border-radius:14px;
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-size:16px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.04);
+
+}
+
+.links a:hover{
+
+    background:#F7F8FA;
+
+}
+
+/* footer */
+
+.footer{
+
+    text-align:center;
+
+    margin-top:30px;
+
+    color:#999;
+
+    font-size:13px;
+
+}
+
+/* 모바일 */
+
+@media (max-width:600px){
+
+.container{
+
+    margin:15px auto;
+
+    padding:15px;
+
+}
+
+.button{
+
+    font-size:18px;
+
+    padding:17px;
+
+}
+
+}

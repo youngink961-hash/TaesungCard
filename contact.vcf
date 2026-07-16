@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+
+FN:김현오 대표이사
+
+ORG:(주)태성솔루션
+
+TEL;TYPE=CELL:01097072001
+TEL;TYPE=WORK,VOICE:0322406104
+TEL;TYPE=WORK,FAX:0322406105
+
+EMAIL;TYPE=INTERNET;TYPE=PREF:nerohyun@taesung21.co.kr
+EMAIL;TYPE=INTERNET:taesung@taesung21.co.kr
+
+URL:https://www.taesung21.co.kr
+
+ADR;TYPE=WORK:;;경기도 부천시 조마루로 385번길 92 U1 Center 1917;부천시;경기도;;;대한민국
+
+END:VCARD
